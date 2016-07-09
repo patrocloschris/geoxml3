@@ -39,7 +39,7 @@ Original code inspired by Mike Williams' EGeoXml object (http://econym.org.uk/gm
 
 1. Download  geoxml3.js  to your web site from the Source tab above. You may also need  ProjectedOverlay.js  and/or  ZipFile.complete.js  (see above).
 
-2. Include it in your map page, something like this:
+2. Include it in your map page, something like this :
 
 ````javascript
 <script src="geoxml3.js"></script>
@@ -51,3 +51,4 @@ Original code inspired by Mike Williams' EGeoXml object (http://econym.org.uk/gm
 var myParser = new geoXML3.parser({map: map});
 myParser.parse('/path/to/data.kml');
 ````
+
